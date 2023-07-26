@@ -1,0 +1,45 @@
+{
+  "name": "pixigraph",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "ts-patch install"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.9",
+    "@pixi-essentials/area-allocator": "^2.0.0",
+    "@pixi-essentials/cull": "^2.0.0",
+    "@pixi/react": "^7.1.0",
+    "leva": "^0.9.35",
+    "pixi-stats": "^1.2.2",
+    "pixi-textinput-v5": "^4.0.0-beta.10",
+    "pixi-viewport": "^5.0.1",
+    "pixi.js": "^7.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reagraph": "4.10.4",
+    "typia": "^4.1.7"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^5.0.0",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "ts-node": "^10.9.1",
+    "ts-patch": "^3.0.2",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.0"
+  }
+}

@@ -1,0 +1,15 @@
+
+  .radio_group_filter{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .radio_group_filter > .radioFlex {
+    flex: auto;
+    align-self: start;
+  }
+
+  .varible {
+    display: flex;
+    flex-direction: column;
+  }
